@@ -1,15 +1,13 @@
 s = input("Nhập chuỗi: ")
 
-print(f"Độ dài của chuỗi: {len(s)}")
+dem = {}
 
-dem_ky_tu = {}
-for char in s:
-    if char in dem_ky_tu:
-        dem_ky_tu[char] += 1
+for chuoi in s:
+    if chuoi in dem:
+        dem[chuoi] += 1
     else:
-        dem_ky_tu[char] = 1
+        dem[chuoi] = 1
 
-print("\nSố lần xuất hiện của mỗi ký tự:")
-for char, count in dem_ky_tu.items():
-    ten_char = "' '" if char == " " else char
-    print(f"Ký tự {ten_char}: {count} lần")
+print("Kết quả:")
+for chuoi, count in dem.items():
+    print(f"{chuoi}: {count}")
