@@ -1,0 +1,5 @@
+s = input("Nhập chuỗi: ")
+chuoi_thay_the = input("Nhập chuỗi thay thế: ")
+n = s.replace(s, chuoi_thay_the)
+print('chuỗi trc khi thay thế:', s)
+print('chuỗi sau khi thay thế:', n)
