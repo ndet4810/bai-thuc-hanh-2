@@ -1,0 +1,5 @@
+s = input("Nhập chuỗi: ")
+chuoi = s.split()
+noi_chuoi = '-'.join(chuoi)
+print("Chuỗi sau khi tách:", chuoi)
+print("Chuỗi sau khi nối:", noi_chuoi)

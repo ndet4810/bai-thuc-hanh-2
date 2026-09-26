@@ -1,0 +1,7 @@
+s = list(map(int, input('nhập danh sách số nguyên: ').split()))
+max = max(s)
+print("Số lớn nhất trong danh sách là:", max)
+tong = sum(s)
+print("Tổng các số trong danh sách là:", tong)
+trung_binh = tong / len(s)
+print("Trung bình cộng của các số trong danh sách là:", trung_binh)
